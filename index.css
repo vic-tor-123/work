@@ -409,7 +409,7 @@ border-radius: 5px;
         flex: 1; /* Take full width on small screens */
         text-align: left;
         font-size: 12px;
-        padding-left: 40px;
+        padding-left: 70px;
     }
 
     .nav-wrapper {
@@ -532,9 +532,17 @@ border-radius: 5px;
         
         .contact-section{
             flex-direction: column;
+            width: 100%;
            
         }
         
+        .contact-info{
+            width: 100%;
+        }
+
+        .contact-form{
+            width: 100%;
+        }
         .contact-info p{
             font-size: 14px;
             font-weight: bolder;
@@ -545,6 +553,15 @@ border-radius: 5px;
         .contact-info h1{
             font-size: 21px;
         }
+
+        .row{
+            flex-direction: column;
+            display: flex;  
+        }
+        .text-center{
+            text-align: center;
+        }
+
         }
 
 
